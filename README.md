@@ -1,4 +1,4 @@
-# Adobe Password Checker 🔑
+# 📇 Adobe Password Checker 🔑
 
 Combined list hint+passwords from: 
   - [``adobe-top100.txt``](http://stricture-group.com/files/adobe-top100.txt)
