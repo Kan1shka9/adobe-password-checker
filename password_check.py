@@ -21,5 +21,4 @@ for y in hashlist:
         hash_split = x.split(',')
         if hash_split[1]:
             if hash_split[1] in y.strip():
-                print "Matches[+]: " + hash_split[0] + " : " + y.strip() 
-
+                print "Matches[+]: " + hash_split[0] + " : " + y.strip()
