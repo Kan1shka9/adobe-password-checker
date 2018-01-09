@@ -10,10 +10,10 @@ Combined list hint+passwords from:
 $ grep "@yahoo.com" cred > hashlist.txt
 ```
 
-Replace 
+  - Replace 
 
-- ``yahoo.com`` with domain being pen-tested
-- ``cred`` with the file name of the publically leaked password/hashdump file
+    - ``yahoo.com`` with domain being pen-tested
+    - ``cred`` with the file name of the publically leaked password/hashdump file
 
 ```sh
 $ git clone https://github.com/Kan1shka9/adobe-password-checker.git /opt/adobe-password-checker
@@ -23,3 +23,6 @@ $ ls
 foundpw.csv  hashlist.txt  password_check.py  README.md
 $ python password_check.py
 ```
+
+- Use the credentials to login to Outlook Web Access (OWA) and against VPN logins
+- Use email address for spear phishing
