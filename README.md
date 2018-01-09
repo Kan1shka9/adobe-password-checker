@@ -7,6 +7,15 @@ Combined list hint+passwords from:
 ###### Usage
 
 ```sh
+$ grep "@yahoo.com" cred > hashlist.txt
+```
+
+Replace 
+
+- ``yahoo.com`` with domain being pen-tested
+- ``cred`` with the file name of the publically leaked password/hashdump file
+
+```sh
 $ git clone https://github.com/Kan1shka9/adobe-password-checker.git /opt/adobe-password-checker
 $ mv hashlist.txt /opt/adobe-password-checker
 $ cd /opt/adobe-password-checker
