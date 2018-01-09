@@ -9,6 +9,7 @@ Combined list hint+passwords from:
 ```sh
 $ git clone https://github.com/Kan1shka9/adobe-password-checker.git /opt/adobe-password-checker
 $ mv hashlist.txt /opt/adobe-password-checker
+$ cd /opt/adobe-password-checker
 $ ls
 foundpw.csv  hashlist.txt  password_check.py  README.md
 $ python password_check.py
